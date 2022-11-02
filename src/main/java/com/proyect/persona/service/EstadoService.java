@@ -1,9 +1,9 @@
-package xyz.yoandroide.persona.service;
+package com.proyect.persona.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import xyz.yoandroide.persona.model.Estado;
-import xyz.yoandroide.persona.repository.EstadoRepository;
+import com.proyect.persona.model.Estado;
+import com.proyect.persona.repository.EstadoRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

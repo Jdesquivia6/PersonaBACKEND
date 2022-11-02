@@ -1,12 +1,12 @@
-package xyz.yoandroide.persona.service;
+package com.proyect.persona.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import xyz.yoandroide.persona.model.Persona;
-import xyz.yoandroide.persona.repository.PersonaRepository;
+import com.proyect.persona.model.Persona;
+import com.proyect.persona.repository.PersonaRepository;
 
 import java.util.List;
 import java.util.Optional;

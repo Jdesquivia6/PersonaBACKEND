@@ -1,4 +1,4 @@
-package xyz.yoandroide.persona.model;
+package com.proyect.persona.model;
 
 import lombok.Data;
 

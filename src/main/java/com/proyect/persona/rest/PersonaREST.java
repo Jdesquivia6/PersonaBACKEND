@@ -1,4 +1,4 @@
-package xyz.yoandroide.persona.rest;
+package com.proyect.persona.rest;
 
 import java.net.URI;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import xyz.yoandroide.persona.model.Persona;
-import xyz.yoandroide.persona.service.PersonaService;
+import com.proyect.persona.model.Persona;
+import com.proyect.persona.service.PersonaService;
 
 @RestController
 @RequestMapping("/personas/")

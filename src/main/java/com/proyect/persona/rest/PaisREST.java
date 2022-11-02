@@ -1,4 +1,4 @@
-package xyz.yoandroide.persona.rest;
+package com.proyect.persona.rest;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import xyz.yoandroide.persona.model.Pais;
-import xyz.yoandroide.persona.service.PaisService;
+import com.proyect.persona.model.Pais;
+import com.proyect.persona.service.PaisService;
 
 @RestController
 @RequestMapping ("/pais/")

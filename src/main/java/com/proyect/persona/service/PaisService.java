@@ -1,9 +1,9 @@
-package xyz.yoandroide.persona.service;
+package com.proyect.persona.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import xyz.yoandroide.persona.model.Pais;
-import xyz.yoandroide.persona.repository.PaisRepository;
+import com.proyect.persona.model.Pais;
+import com.proyect.persona.repository.PaisRepository;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package xyz.yoandroide.persona.repository;
+package com.proyect.persona.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.stereotype.Repository;
-import xyz.yoandroide.persona.model.Persona;
+import com.proyect.persona.model.Persona;
 
 @Repository
 public interface PersonaRepository extends JpaRepository<Persona, Long>{
